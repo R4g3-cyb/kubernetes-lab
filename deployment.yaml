@@ -20,6 +20,7 @@ spec:
           emptyDir: {}
         - name: run
           emptyDir: {}
+      automountServiceAccountToken: false
       containers:
       - name: nginx
         image: nginx
